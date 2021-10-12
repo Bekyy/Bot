@@ -5,8 +5,8 @@ from datetime import datetime
 
 # API_KEY = os.getenv('API_KEY')
 # my_secret = os.environ['API_KEY']
-TOKEN = '2023190356:AAEFaG-q5vPnlyXzYu8Uq0QH9yUQj8W59rQ'
-bot = telebot.TeleBot(TOKEN)
+TOKEN = "2023190356:AAEFaG-q5vPnlyXzYu8Uq0QH9yUQj8W59rQ"
+bot = telebot.TeleBot(token=TOKEN)
 
 @bot.message_handler(commands=['start'])
 def start(message):
